@@ -1,0 +1,51 @@
+<html>
+<head>
+    <title>HTML5 Audio Player</title>
+    <link rel="stylesheet" href="css/style.css" media="screen">
+</head>
+<body>
+<div id="container">
+	<div id="audio-image">
+		<img class="cover" />
+	</div>
+	<div id="audio-player">
+		<div id="audio-info">
+			<span class="artist"></span> - <span class="title"></span>
+		</div>
+		 <input id="volume" type="range" min="0" max="10" value="5" />
+		 <br>
+		 <div id="buttons">
+		 <span>
+			<button id="prev"></button>
+			<button id="play"></button>
+			<button id="pause"></button>
+			<button id="stop"></button>
+			<button id="next"></button>
+			</span>
+		 </div>
+		 <div class="clearfix"></div>
+		 <div id="tracker">
+			<div id="progressBar">
+				<span id="progress"></span>
+			</div>
+			<span id="duration"></span>
+		 </div>
+		 <div class="clearfix"></div>
+		 <ul id="playlist" class="hidden">
+			<li song="Burna_Boy_Anybody_9jaflaver.com_.mp3" cover="cover1.jpg" artist="Burna_Boy">Anybody.mp3</li>
+			<li song="Davido-Blow-My-Mind-ft-Chris-Brown-(JustNaija.com).mp3" cover="cover1.jpg" artist="Davido-ft-Chris-Brown">Blow My Mind.mp3</li>
+			<li song="Larry-Gaaga-Ft.-Patoranking-–-In-My-Head.mp3" cover="cover1.jpg" artist="-Patoranking">In my Head.mp3</li>
+			<li song="Teni-–-Power-Rangers.mp3" cover="cover1.jpg" artist="Teni">Power Rangers.mp3</li>
+			<li song="Reckless Love Instrumental W- Lyrics (192  kbps) (ovh).mp3" cover="cover1.jpg" artist="Hillson-United">Reckless Love.mp3</li>
+			<li song="Ceeza-Milli-Ft.-Wizkid-–-Shayo.mp3" cover="cover1.jpg" artist="Ceeza-Milli-Ft.-Wizkid">Shayo</li>
+			<li song="Linkin Park - By Myself.mp3" cover="cover1.jpg" artist="Linkin Park">By Myself.mp3</li>
+			
+		</ul>
+	</div>
+
+</div>
+
+<script src="js/jquery.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
