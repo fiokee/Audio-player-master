@@ -7,7 +7,7 @@
 **1.0**
 
 ## Demo ##
-To view a live demo, please go to - [http://codedemos.com/html5/html5audioplayer](http://www.codedemos.com/html5/html5audioplayer)
+To view a live demo, please go to - https://github.com/fiokee/Audio-player-master/edit/master/
 
 
 ##Installation##
@@ -30,10 +30,7 @@ Simply upload the files to your web server
 GNU/GPL
 
 ##Support##
-If you are having issues getting this software to work, you can email support@codeskillet.com
+If you are having issues getting this software to work, you can email smleffiong@gmail.com
 
 ##Authors##
-Brad Traversy
-
-* [http://twitter.com/bradtraversy](http://twitter.com/bradtraversy)
-* [http://www.linkedin.com/in/bradtraversy](http://www.linkedin.com/in/bradtraversy)
+Samuel Effiong (Fiokee)
